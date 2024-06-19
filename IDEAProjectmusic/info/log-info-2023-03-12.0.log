@@ -1,0 +1,704 @@
+2023-03-12 11:55:37.871 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 22044 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 11:55:37.903 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 11:55:42.535 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 11:55:42.566 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 11:55:42.566 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 11:55:42.566 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 11:55:43.618 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 11:55:43.618 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5653 ms
+2023-03-12 11:55:44.057 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 11:55:44.527 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 11:55:46.293 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 11:55:46.371 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 11:55:46.746 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 11:55:46.761 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 11:55:46.761 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 11:55:46.777 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 11:55:46.824 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 11:55:47.011 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 11:55:47.042 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 11:55:47.074 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 11:55:47.089 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 11:55:47.105 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 11:55:47.121 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 11:55:47.136 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 11:55:47.152 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 11:55:47.152 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 11:55:47.167 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 11:55:47.167 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 11:55:47.183 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 11:55:47.183 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 11:55:47.183 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 11:55:47.199 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 11:55:47.261 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 11.004 seconds (JVM running for 14.513)
+2023-03-12 11:56:32.822 [http-nio-8001-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 11:56:32.822 [http-nio-8001-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 11:56:32.829 [http-nio-8001-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2023-03-12 12:06:21.295 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 10944 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 12:06:21.326 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 12:06:24.763 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 12:06:24.794 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:06:24.794 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 12:06:24.794 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 12:06:25.247 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 12:06:25.247 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3812 ms
+2023-03-12 12:06:25.544 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 12:06:25.809 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 12:06:27.028 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 12:06:27.106 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 12:06:27.340 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:06:27.637 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 12:06:27.637 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 12:06:27.653 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 12:06:27.684 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 12:06:27.871 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 12:06:27.887 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 12:06:27.918 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 12:06:27.934 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 12:06:27.965 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 12:06:28.012 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 12:06:28.028 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 12:06:28.043 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 12:06:28.043 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 12:06:28.043 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 12:06:28.059 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 12:06:28.059 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 12:06:28.059 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 12:06:28.074 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 12:06:28.090 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 12:06:28.137 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 8.372 seconds (JVM running for 12.718)
+2023-03-12 12:06:34.026 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 12:06:34.026 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 12:06:34.026 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-03-12 12:09:15.995 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 14292 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 12:09:15.995 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 12:09:18.256 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 12:09:18.272 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:09:18.272 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 12:09:18.272 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 12:09:18.397 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 12:09:18.397 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2355 ms
+2023-03-12 12:09:18.570 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 12:09:18.695 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 12:09:19.574 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 12:09:19.637 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 12:09:19.793 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:09:19.831 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 12:09:19.831 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 12:09:19.841 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 12:09:19.888 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 12:09:20.032 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 12:09:20.060 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 12:09:20.092 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 12:09:20.092 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 12:09:20.123 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 12:09:20.139 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 12:09:20.154 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 12:09:20.170 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 12:09:20.170 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 12:09:20.186 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 12:09:20.186 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 12:09:20.186 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 12:09:20.201 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 12:09:20.201 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 12:09:20.217 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 12:09:20.249 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 4.764 seconds (JVM running for 6.582)
+2023-03-12 12:09:24.248 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 12:09:24.248 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 12:09:24.254 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2023-03-12 12:13:50.997 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 24640 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 12:13:50.997 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 12:13:52.246 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 12:13:52.262 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:13:52.262 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 12:13:52.262 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 12:13:52.371 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 12:13:52.371 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1327 ms
+2023-03-12 12:13:52.543 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 12:13:52.637 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 12:13:53.496 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 12:13:53.559 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 12:13:53.746 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:13:53.762 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 12:13:53.762 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 12:13:53.777 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 12:13:53.809 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 12:13:53.949 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 12:13:53.980 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 12:13:54.012 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 12:13:54.012 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 12:13:54.027 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 12:13:54.058 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 12:13:54.074 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 12:13:54.090 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 12:13:54.090 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 12:13:54.105 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 12:13:54.105 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 12:13:54.105 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 12:13:54.121 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 12:13:54.121 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 12:13:54.137 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 12:13:54.168 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 3.558 seconds (JVM running for 5.101)
+2023-03-12 12:13:58.901 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 12:13:58.901 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 12:13:58.901 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-03-12 12:17:24.611 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 18604 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 12:17:24.611 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 12:17:26.032 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 12:17:26.048 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:17:26.048 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 12:17:26.048 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 12:17:26.157 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 12:17:26.157 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1499 ms
+2023-03-12 12:17:26.361 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 12:17:26.470 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 12:17:27.423 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 12:17:27.517 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 12:17:27.688 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:17:27.720 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 12:17:27.720 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 12:17:27.735 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 12:17:27.766 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 12:17:27.907 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 12:17:27.938 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 12:17:27.970 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 12:17:27.985 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 12:17:28.001 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 12:17:28.032 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 12:17:28.048 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 12:17:28.063 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 12:17:28.079 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 12:17:28.079 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 12:17:28.079 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 12:17:28.095 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 12:17:28.095 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 12:17:28.110 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 12:17:28.126 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 12:17:28.157 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 3.983 seconds (JVM running for 5.67)
+2023-03-12 12:17:32.203 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 12:17:32.203 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 12:17:32.203 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-03-12 12:19:35.166 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 2740 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 12:19:35.166 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 12:19:36.398 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 12:19:36.413 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:19:36.413 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 12:19:36.413 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 12:19:36.523 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 12:19:36.523 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1326 ms
+2023-03-12 12:19:36.679 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 12:19:36.788 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 12:19:37.616 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 12:19:37.679 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 12:19:37.835 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:19:37.866 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 12:19:37.866 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 12:19:37.866 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 12:19:37.897 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 12:19:38.022 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 12:19:38.053 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 12:19:38.085 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 12:19:38.100 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 12:19:38.116 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 12:19:38.131 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 12:19:38.147 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 12:19:38.163 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 12:19:38.163 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 12:19:38.178 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 12:19:38.178 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 12:19:38.194 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 12:19:38.194 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 12:19:38.194 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 12:19:38.210 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 12:19:38.241 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 3.483 seconds (JVM running for 5.068)
+2023-03-12 12:19:40.386 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 12:19:40.387 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 12:19:40.392 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-03-12 12:22:09.058 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 12604 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 12:22:09.058 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 12:22:12.385 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 12:22:12.401 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:22:12.401 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 12:22:12.401 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 12:22:12.541 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 12:22:12.541 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3436 ms
+2023-03-12 12:22:12.729 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 12:22:12.838 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 12:22:13.760 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 12:22:20.046 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 24776 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 12:22:20.062 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 12:22:21.765 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 12:22:21.780 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:22:21.780 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 12:22:21.780 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 12:22:21.999 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 12:22:21.999 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1874 ms
+2023-03-12 12:22:22.233 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 12:22:22.452 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 12:22:23.499 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 12:22:23.577 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 12:22:23.780 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:22:23.811 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 12:22:23.811 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 12:22:23.842 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 12:22:23.874 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 12:22:24.077 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 12:22:24.108 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 12:22:24.139 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 12:22:24.155 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 12:22:24.171 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 12:22:24.202 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 12:22:24.217 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 12:22:24.233 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 12:22:24.233 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 12:22:24.233 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 12:22:24.249 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 12:22:24.249 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 12:22:24.264 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 12:22:24.264 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 12:22:24.280 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 12:22:24.327 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 4.785 seconds (JVM running for 8.229)
+2023-03-12 12:22:26.730 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-12 12:22:26.730 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-12 12:22:26.746 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-12 12:22:32.521 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 17460 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 12:22:32.521 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 12:22:34.036 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 12:22:34.036 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:22:34.036 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 12:22:34.036 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 12:22:34.161 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 12:22:34.161 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1578 ms
+2023-03-12 12:22:34.380 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 12:22:34.505 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 12:22:35.520 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 12:22:35.614 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 12:22:35.957 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:22:35.973 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 12:22:35.973 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 12:22:35.989 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 12:22:36.035 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 12:22:36.239 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 12:22:36.254 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 12:22:36.301 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 12:22:36.301 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 12:22:36.317 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 12:22:36.348 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 12:22:36.364 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 12:22:36.379 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 12:22:36.395 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 12:22:36.395 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 12:22:36.410 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 12:22:36.410 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 12:22:36.426 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 12:22:36.426 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 12:22:36.442 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 12:22:36.489 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 4.477 seconds (JVM running for 6.147)
+2023-03-12 12:22:38.863 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 12:22:38.863 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 12:22:38.879 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2023-03-12 12:30:28.122 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-12 12:30:28.122 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-12 12:30:28.154 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-12 12:30:38.043 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 4792 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 12:30:38.043 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 12:30:40.060 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 12:30:40.076 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:30:40.076 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 12:30:40.076 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 12:30:40.185 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 12:30:40.185 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2095 ms
+2023-03-12 12:30:40.373 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 12:30:40.498 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 12:30:41.375 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 12:30:41.437 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 12:30:41.609 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:30:41.640 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 12:30:41.640 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 12:30:41.656 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 12:30:41.687 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 12:30:41.828 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 12:30:41.843 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 12:30:41.874 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 12:30:41.890 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 12:30:41.906 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 12:30:41.921 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 12:30:41.937 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 12:30:41.953 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 12:30:41.953 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 12:30:41.968 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 12:30:41.968 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 12:30:41.984 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 12:30:41.984 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 12:30:41.984 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 12:30:41.999 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 12:30:42.031 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 4.427 seconds (JVM running for 6.116)
+2023-03-12 12:30:46.295 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 12:30:46.295 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 12:30:46.295 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-03-12 12:36:05.297 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 26900 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 12:36:05.313 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 12:36:07.922 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 12:36:07.953 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:36:07.953 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 12:36:07.953 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 12:36:08.406 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 12:36:08.406 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2999 ms
+2023-03-12 12:36:08.656 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 12:36:08.828 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 12:36:10.015 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 12:36:10.109 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 12:36:10.296 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:36:10.343 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 12:36:10.343 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 12:36:10.359 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 12:36:10.406 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 12:36:10.687 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 12:36:10.718 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 12:36:10.749 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 12:36:10.749 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 12:36:10.780 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 12:36:10.812 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 12:36:10.827 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 12:36:10.843 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 12:36:10.843 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 12:36:10.843 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 12:36:10.859 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 12:36:10.859 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 12:36:10.859 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 12:36:10.874 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 12:36:10.890 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 12:36:10.937 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 6.484 seconds (JVM running for 8.99)
+2023-03-12 12:36:17.013 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 12:36:17.013 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 12:36:17.029 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2023-03-12 12:45:18.303 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-12 12:45:18.334 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-12 12:45:18.365 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-12 12:45:29.029 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 25564 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 12:45:29.044 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 12:45:31.137 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 12:45:31.153 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:45:31.153 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 12:45:31.153 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 12:45:31.262 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 12:45:31.262 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2187 ms
+2023-03-12 12:45:31.450 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 12:45:31.575 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 12:45:32.434 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 12:45:32.496 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 12:45:32.668 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:45:32.700 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 12:45:32.700 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 12:45:32.715 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 12:45:32.746 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 12:45:32.887 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 12:45:32.918 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 12:45:32.950 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 12:45:32.950 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 12:45:32.981 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 12:45:32.996 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 12:45:33.012 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 12:45:33.028 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 12:45:33.028 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 12:45:33.043 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 12:45:33.043 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 12:45:33.043 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 12:45:33.043 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 12:45:33.059 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 12:45:33.074 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 12:45:33.106 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 4.496 seconds (JVM running for 6.708)
+2023-03-12 12:45:35.527 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 12:45:35.527 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 12:45:35.527 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-03-12 12:53:49.692 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 21012 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 12:53:49.692 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 12:53:50.926 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 12:53:50.942 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:53:50.942 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 12:53:50.942 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 12:53:51.051 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 12:53:51.051 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1312 ms
+2023-03-12 12:53:51.207 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 12:53:51.301 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 12:53:52.129 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 12:53:52.191 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 12:53:52.348 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 12:53:52.379 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 12:53:52.379 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 12:53:52.395 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 12:53:52.410 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 12:53:52.535 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 12:53:52.566 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 12:53:52.598 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 12:53:52.598 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 12:53:52.629 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 12:53:52.645 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 12:53:52.660 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 12:53:52.676 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 12:53:52.676 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 12:53:52.691 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 12:53:52.691 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 12:53:52.691 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 12:53:52.707 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 12:53:52.707 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 12:53:52.723 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 12:53:52.754 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 3.441 seconds (JVM running for 4.872)
+2023-03-12 12:53:55.722 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 12:53:55.722 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 12:53:55.738 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2023-03-12 13:06:21.330 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 12816 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 13:06:21.330 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 13:06:23.474 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 13:06:23.485 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 13:06:23.486 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 13:06:23.486 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 13:06:23.604 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 13:06:23.604 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2227 ms
+2023-03-12 13:06:23.799 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 13:06:23.947 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 13:06:24.861 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 13:06:24.931 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 13:06:25.275 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 13:06:25.308 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 13:06:25.309 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 13:06:25.326 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 13:06:25.368 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 13:06:25.508 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 13:06:25.535 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 13:06:25.563 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 13:06:25.577 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 13:06:25.594 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 13:06:25.622 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 13:06:25.635 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 13:06:25.648 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 13:06:25.650 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 13:06:25.658 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 13:06:25.661 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 13:06:25.670 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 13:06:25.673 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 13:06:25.681 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 13:06:25.695 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 13:06:25.723 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 4.831 seconds (JVM running for 6.738)
+2023-03-12 13:09:00.718 [http-nio-8001-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 13:09:00.719 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 13:09:00.726 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2023-03-12 13:14:31.967 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 16248 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 13:14:31.982 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 13:14:34.418 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 13:14:34.429 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 13:14:34.447 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 13:14:34.447 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 13:14:34.888 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 13:14:34.889 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2860 ms
+2023-03-12 13:14:35.120 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 13:14:35.305 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 13:14:36.753 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 13:14:36.823 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 13:14:36.996 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 13:14:37.019 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 13:14:37.020 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 13:14:37.040 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 13:14:37.075 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 13:14:37.160 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 13:14:37.161 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 13:14:37.169 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2023-03-12 13:14:37.285 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 13:14:37.324 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 13:14:37.361 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 13:14:37.374 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 13:14:37.391 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 13:14:37.426 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 13:14:37.440 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 13:14:37.459 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 13:14:37.461 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 13:14:37.478 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 13:14:37.483 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 13:14:37.494 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 13:14:37.499 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 13:14:37.514 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 13:14:37.536 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 13:14:37.565 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 6.641 seconds (JVM running for 9.681)
+2023-03-12 18:50:50.518 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 26872 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 18:50:50.532 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 18:50:53.195 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 18:50:53.214 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 18:50:53.215 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 18:50:53.215 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 18:50:53.370 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 18:50:53.370 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2789 ms
+2023-03-12 18:50:53.759 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 18:50:54.116 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 18:50:55.401 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 18:50:55.649 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 18:50:55.899 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 18:50:55.927 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 18:50:55.928 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 18:50:55.944 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 18:50:55.977 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 18:50:56.159 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 18:50:56.194 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 18:50:56.233 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 18:50:56.245 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 18:50:56.264 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 18:50:56.293 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 18:50:56.308 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 18:50:56.324 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 18:50:56.327 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 18:50:56.339 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 18:50:56.342 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 18:50:56.351 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 18:50:56.354 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 18:50:56.369 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 18:50:56.388 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 18:50:56.444 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 6.538 seconds (JVM running for 8.48)
+2023-03-12 18:51:52.818 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 18:51:52.818 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 18:51:52.824 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2023-03-12 18:55:37.114 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 14932 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 18:55:37.126 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 18:55:39.946 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 18:55:39.958 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 18:55:39.959 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 18:55:39.959 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 18:55:40.323 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 18:55:40.323 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3113 ms
+2023-03-12 18:55:40.675 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 18:55:40.858 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 18:55:42.184 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 18:55:42.269 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 18:55:42.551 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 18:55:42.591 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 18:55:42.592 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 18:55:42.623 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 18:55:42.681 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 18:55:42.906 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 18:55:42.935 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 18:55:42.978 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 18:55:42.990 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 18:55:43.009 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 18:55:43.051 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 18:55:43.062 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 18:55:43.080 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 18:55:43.082 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 18:55:43.093 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 18:55:43.103 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 18:55:43.113 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 18:55:43.118 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 18:55:43.131 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 18:55:43.157 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 18:55:43.203 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 7.03 seconds (JVM running for 10.885)
+2023-03-12 18:56:07.743 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 18:56:07.743 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 18:56:07.750 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2023-03-12 19:49:40.047 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-12 19:49:40.050 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-12 19:49:40.058 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-12 20:23:59.338 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 14224 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 20:23:59.365 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 20:24:02.296 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 20:24:02.313 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 20:24:02.314 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 20:24:02.314 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 20:24:02.760 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 20:24:02.761 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3316 ms
+2023-03-12 20:24:03.126 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 20:24:03.385 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 20:24:04.697 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 20:24:04.807 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 20:24:05.053 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 20:24:05.075 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 20:24:05.077 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 20:24:05.102 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 20:24:05.151 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 20:24:05.351 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 20:24:05.376 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 20:24:05.413 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 20:24:05.424 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 20:24:05.443 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 20:24:05.482 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 20:24:05.497 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 20:24:05.514 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 20:24:05.518 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 20:24:05.529 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 20:24:05.532 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 20:24:05.540 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 20:24:05.544 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 20:24:05.553 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 20:24:05.575 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 20:24:05.633 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 7.31 seconds (JVM running for 10.99)
+2023-03-12 20:24:06.775 [http-nio-8001-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 20:24:06.776 [http-nio-8001-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 20:24:06.793 [http-nio-8001-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2023-03-12 20:57:12.623 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 15696 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 20:57:12.635 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 20:57:15.178 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 20:57:15.191 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 20:57:15.191 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 20:57:15.191 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 20:57:15.533 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 20:57:15.534 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2835 ms
+2023-03-12 20:57:15.761 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 20:57:16.021 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 20:57:17.112 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 20:57:17.188 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 20:57:17.390 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 20:57:17.412 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 20:57:17.413 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 20:57:17.434 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 20:57:17.471 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 20:57:17.632 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 20:57:17.655 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 20:57:17.684 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 20:57:17.699 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 20:57:17.716 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 20:57:17.749 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 20:57:17.763 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 20:57:17.777 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 20:57:17.779 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 20:57:17.789 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 20:57:17.792 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 20:57:17.802 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 20:57:17.805 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 20:57:17.814 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 20:57:17.831 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 20:57:17.866 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 6.1 seconds (JVM running for 8.227)
+2023-03-12 20:58:09.356 [http-nio-8001-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 20:58:09.357 [http-nio-8001-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 20:58:09.368 [http-nio-8001-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2023-03-12 21:00:08.621 [main] INFO  com.android.adminService.AdminApplication - Starting AdminApplication on android with PID 2748 (E:\IDEAProject\music-local\service\service_admin\target\classes started by 10231 in E:\IDEAProject\music-local)
+2023-03-12 21:00:08.626 [main] INFO  com.android.adminService.AdminApplication - The following profiles are active: dev
+2023-03-12 21:00:09.907 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2023-03-12 21:00:09.917 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2023-03-12 21:00:09.918 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-12 21:00:09.918 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-03-12 21:00:10.030 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-12 21:00:10.030 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1364 ms
+2023-03-12 21:00:10.234 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-12 21:00:10.340 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-12 21:00:11.239 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-12 21:00:11.316 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 21:00:11.502 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2023-03-12 21:00:11.523 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2023-03-12 21:00:11.524 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-03-12 21:00:11.535 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-03-12 21:00:11.567 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-03-12 21:00:11.700 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_1
+2023-03-12 21:00:11.724 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_2
+2023-03-12 21:00:11.755 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_3
+2023-03-12 21:00:11.765 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_1
+2023-03-12 21:00:11.780 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_4
+2023-03-12 21:00:11.812 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_5
+2023-03-12 21:00:11.826 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_2
+2023-03-12 21:00:11.839 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addSongListUsingPOST_1
+2023-03-12 21:00:11.841 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_6
+2023-03-12 21:00:11.854 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongUsingGET_3
+2023-03-12 21:00:11.857 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageSongConditionUsingPOST_1
+2023-03-12 21:00:11.864 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_7
+2023-03-12 21:00:11.867 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2023-03-12 21:00:11.876 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_8
+2023-03-12 21:00:11.890 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingGET_9
+2023-03-12 21:00:11.918 [main] INFO  com.android.adminService.AdminApplication - Started AdminApplication in 3.684 seconds (JVM running for 5.4)
+2023-03-12 21:00:48.678 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-12 21:00:48.678 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-12 21:00:48.683 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
